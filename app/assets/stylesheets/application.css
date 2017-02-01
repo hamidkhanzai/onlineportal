@@ -1,0 +1,120 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+.vertical{
+    border-left: thin solid #38546d;
+    background: #16222c;
+    width: thin;
+    margin-top:15px;
+   
+    height: 80px;
+    position: absolute;
+    left:420px;
+    top: 10px;
+    }
+    
+  h4{line-height: 0px;
+  }
+   
+  h5{font-size: 12px;display:inline;}
+  
+  
+  
+    .bannercontent{
+   max-width: 700px;
+   
+    
+    height: 50px;
+    position: absolute;
+    left:460px;
+    top: 15px;
+
+    }
+@media only screen and (min-width: 480px)  {
+    .content{
+         padding-left:50px;
+    }
+    .banner{
+    	padding-left:50px;
+    }
+    
+    
+}
+
+.content{
+	
+}
+ul {
+    list-style-image: url('/assets/favicon.png');
+    float:left;
+    max-width:200px;
+    margin-left:20px;
+}
+@media only screen and (max-width: 480px)  {
+	
+.vertical {
+    	display:none;
+    }
+    .bannercontent{
+    	display: none;
+    }
+    .banner{
+    	top:10px;
+    }
+    .city{
+    	width:100%;
+    }
+}
+@media only screen and (max-width: 680px)  {
+	
+.vertical {
+    	display:none;
+    }
+    .bannercontent{
+    	left:50px;
+    	top:90px;
+    }
+    h4{
+    	display:inline;
+    }
+}
+.banner{
+	
+	
+	background-color:#DCDCDC;
+	padding-top:40px;
+	height:90px;
+	
+}
+
+label{display:block;
+font-size:16px;}
+.city {
+    float: left;
+    margin: 5px;
+    padding-right: 15px;
+    max-width: 400px;
+    
+    border: 0px solid black;
+}
+
+.images {
+ 
+    margin: 5px;
+    padding-right: 15px;
+    max-width: 400px;
+    height: 200px;
+    border: 0px solid black;
+}
